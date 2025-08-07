@@ -6,10 +6,10 @@ git clone https://github.com/madhavalapaticarwiser/car-tradein-api.git
 cd car-tradein-api
 
 # 2. Pull the pre-built image
-docker pull madhavalapati/car-tradein-api:1.0.0
+docker pull madhavalapati/car-tradein-api:1.0.1
 
 # 3. Run the container
-docker run --rm -p 8080:8080 madhavalapati/car-tradein-api:1.0.0
+docker run --rm -p 8080:8080 madhavalapati/car-tradein-api:1.0.1
 
 # 1.1. Build the Docker image (Optional)
 docker build -t car-tradein-api .
